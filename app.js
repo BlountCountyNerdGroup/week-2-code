@@ -1,12 +1,12 @@
+
 // here, we're grabbing the canvas from our HTML document (index.html)
 // and we're telling it that we're going to be drawing 2D things on it
 let canvas = document.getElementById('myCanvas');
 let context = canvas.getContext("2d");
 
 // Here we're creating a class called Circle
-// You can think of a class like a cookie-cutter, not the cookie itself;
-// it allows us to create a template for something like a Circle which will always have certain
-// properties like a color, size, position (for position we use x (horizontal) and y (vertical))
+// A class is like a cookie-cutter, not the cookie itself because in the class, we define "what it means to be a Circle";
+// Then when we tell the computer to make a Circle, it will always know what a Circle is and what makes one up
 class Circle {
 
     // clr, size, x, and y (below) are the inputs we're taking when we create a new circle
